@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:id="@+id/colorButton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#EBE1DD"
+                android:text="235-255-221"
+                android:gravity="center"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="//RGB"
+                android:layout_below="@id/colorButton"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#EBE1DD"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ECCBCA"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#75839C"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#99A9BF"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C3CCD5"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#DDE2E5"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
